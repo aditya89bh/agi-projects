@@ -1,4 +1,4 @@
-# Sparse Evolutionary Training (SET) on MNIST
+# AGi-cooking
 
 This project implements the Sparse Evolutionary Training (SET) algorithm on the MNIST dataset using PyTorch. It evolves a sparse neural network by pruning and regrowing weights at each epoch — mimicking biological rewiring.
 
