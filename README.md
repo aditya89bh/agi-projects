@@ -1,29 +1,25 @@
-# AGi-cooking
+# AGI Projects Research Repository
 
-This project implements the Sparse Evolutionary Training (SET) algorithm on the MNIST dataset using PyTorch. It evolves a sparse neural network by pruning and regrowing weights at each epoch — mimicking biological rewiring.
+This repository contains implementations of cutting-edge AGI and sparse neural network research.
 
-## 🌱 Highlights
-- SparseLinear layers initialized with Erdős–Rényi graphs
-- Evolution mechanism: prune + regrow every epoch
-- Achieves >98% test accuracy on MNIST
-- Clean, minimal PyTorch implementation
+## Project 1: Sparse Evolutionary Training (SET) ✅ COMPLETED
 
-## 📦 Files
-- `set_mnist.ipynb`: Complete working notebook (Colab-friendly)
-- `requirements.txt`: Dependencies for local setup
+**Status**: Successfully implemented with 98.33% MNIST accuracy using only 5% active connections
 
-## 🧠 Inspired By
-- Mocanu et al., 2018 – [SET paper](https://arxiv.org/abs/1706.04303)
-- AGI research into sparse, evolving architectures
+### Results
+- **Accuracy**: 98.33% on MNIST dataset
+- **Sparsity**: 95% reduction in parameters (139,700/2,794,000 active)
+- **Evolution**: Dynamic topology changes every 100 epochs
+- **Architecture**: 3-layer MLP with biological neural plasticity
 
-## 🔧 To Run Locally
+### Features
+- Erdős–Rényi sparse initialization
+- Automatic pruning of weak connections
+- Random regrowth of new pathways
+- Real-time sparsity monitoring
 
-```bash
-pip install -r requirements.txt
-jupyter notebook
-
-## 📈 Sample Output
-
-You’ll see accuracy improving over epochs:
-
-Epoch 20/20 → Loss: 0.0142 | Train Acc: 99.94% | Test Acc: 98.26%
+## Next Projects (Coming Soon)
+- Memory-Augmented Transformer for Few-shot Learning
+- Differentiable Neural Computer (DNC)
+- Lottery Ticket Hypothesis for Vision Transformers
+- Sparse Mixture-of-Experts
